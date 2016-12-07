@@ -1,0 +1,79 @@
+/* LAYOUT */
+#container, #input, #button
+{
+	background-color: #fff;
+}
+
+#top, #send
+{
+	background-color: #fafafa;
+}
+
+#title, #input
+{	
+	color: #333;
+}
+
+#count
+{	
+	color: #888;
+}
+
+#container.border, #top, #online, #send, #input, #button
+{
+	border-color: #e5e5e5;
+}
+
+/* EVENTS */
+p.info
+{
+	color: #888;
+}
+
+p.error
+{
+	color: #c3431c;
+}
+
+p.message, table.list
+{
+	color: #333;
+}
+
+/* TIMESTAMP */
+span.time, span.user
+{
+	color: #aaa;
+}
+
+/* ANCHOR */
+a
+{
+	color: #096ba7;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+/* USERS */
+a.self:hover
+{
+	text-decoration: none;
+}
+
+a.user-level-0
+{
+	color: #096ba7;
+}
+
+a.user-level-1, a.user-level-2
+{
+	color: #3da709;
+}
+
+a.user-level-3, a.user-level-4, a.user-level-5
+{
+	color: #a70909;
+}

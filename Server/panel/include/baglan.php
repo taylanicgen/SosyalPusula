@@ -1,0 +1,1 @@
+<?php $bag = mysql_connect("localhost","android_admin","123"); mysql_select_db("test",$bag) or die	("Veritabanina Baglanamadi."); ?>

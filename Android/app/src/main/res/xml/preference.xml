@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="AYARLAR">
+
+        <CheckBoxPreference
+            android:key="PREF_UYARI"
+            android:title="Bildirim Gelsin"
+            android:defaultValue="true"/>
+
+        <RingtonePreference
+            android:key="PREF_BILDIRIM_TONU"
+            android:title="Bildirim Tonu"
+            android:summary="Bildirim Uyarı Tonu"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:ringtoneType="notification"/>
+
+    </PreferenceCategory>
+
+    <Preference android:title="Geri Dön"
+        android:key="button"
+        android:summary="Yardım Ekranına Dön"/>
+
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<script type="text/javascript">
+<!--
+var SquareLC_<?php echo $channel; ?> = <?php echo json_encode($settings); ?>;
+-->
+</script>
+<iframe
+	style="display: block;"
+	src="<?php echo self::config('static_path'); ?>php/chat.php?channel=<?php echo $channel; ?>"
+	width="<?php echo $settings['width']; ?>"
+	height="<?php echo $settings['height']; ?>"
+	frameborder="0"
+	allowTransparency="true"
+>
+</iframe>

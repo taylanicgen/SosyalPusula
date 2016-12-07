@@ -1,0 +1,59 @@
+1378308426534	message	session	message	28c8edde3d61a0411511d3b1866f0636	test
+1378308495551	leave	session	28c8edde3d61a0411511d3b1866f0636
+1378308561232	leave	session	6f181f206b8555c5dc619bc206ab35ad
+1378308561232	join	session	id	name	level	lock	28c8edde3d61a0411511d3b1866f0636	1	sercan ercan	0	1
+1378321091056	join	session	name	level	d0eff8de2f06ae5e69967d45456ab9f7	anon_0001	0
+1378321141709	leave	session	d0eff8de2f06ae5e69967d45456ab9f7
+1378321541586	join	session	name	level	3726d98c5aa6adf9d482149637597272	anon_0001	0
+1378321552938	leave	session	3726d98c5aa6adf9d482149637597272
+1378321805856	join	session	id	name	lock	level	83a5a282f092aa7baf6982b54227bb54	24	İsmail Yılmaz ( i.k )	1	0
+1378321859042	message	session	message	83a5a282f092aa7baf6982b54227bb54	hoop
+1378321867070	message	session	message	28c8edde3d61a0411511d3b1866f0636	tamamdır sorun yok
+1378321956861	message	session	message	83a5a282f092aa7baf6982b54227bb54	demoyu kapattım
+1378323567106	leave	session	28c8edde3d61a0411511d3b1866f0636
+1378330325742	leave	session	83a5a282f092aa7baf6982b54227bb54
+1378330325801	join	session	id	name	level	lock	28c8edde3d61a0411511d3b1866f0636	1	Ramazan Yılmaz ( Genel Müdür )	0	1
+1378364145703	leave	session	28c8edde3d61a0411511d3b1866f0636
+1378364145802	join	session	name	level	bf5332b18fa52ebd0dcff0cef50fafbc	anon_0001	0
+1378364599090	leave	session	bf5332b18fa52ebd0dcff0cef50fafbc
+1378364599512	join	session	id	name	level	lock	28c8edde3d61a0411511d3b1866f0636	1	Ramazan Yılmaz ( Genel Müdür )	0	1
+1378365085051	leave	session	28c8edde3d61a0411511d3b1866f0636
+1378365085052	join	session	name	level	899ca6a949ecfe3f85d53175fad6d7d5	anon_0001	0
+1378365390444	leave	session	899ca6a949ecfe3f85d53175fad6d7d5
+1378365390445	join	session	name	level	8da869667b889dc84fe587f2690fbb89	anon_0001	0
+1378365626997	leave	session	8da869667b889dc84fe587f2690fbb89
+1378365626998	join	session	name	level	bafb35c9d6c5f907bfc408f9783d536f	anon_0001	0
+1378367191358	leave	session	bafb35c9d6c5f907bfc408f9783d536f
+1378367191359	join	session	id	name	level	lock	28c8edde3d61a0411511d3b1866f0636	1	Ramazan Yılmaz ( Genel Müdür )	0	1
+1378367608654	leave	session	28c8edde3d61a0411511d3b1866f0636
+1378367608654	join	session	name	level	bfcb4d1b58f1bbce5433d18494e40d22	anon_0001	0
+1378368434127	leave	session	bfcb4d1b58f1bbce5433d18494e40d22
+1378368434129	join	session	id	name	level	lock	28c8edde3d61a0411511d3b1866f0636	1	Ramazan Yılmaz ( Genel Müdür )	0	1
+1378368596039	leave	session	28c8edde3d61a0411511d3b1866f0636
+1378368596040	join	session	name	level	ee3926b50e104a8ae87e6cabeee9092b	anon_0001	0
+1378369774925	leave	session	ee3926b50e104a8ae87e6cabeee9092b
+1378369774953	join	session	name	level	bfcb4d1b58f1bbce5433d18494e40d22	anon_0001	0
+1378370165598	leave	session	bfcb4d1b58f1bbce5433d18494e40d22
+1378370165678	join	session	name	level	ee3926b50e104a8ae87e6cabeee9092b	anon_0001	0
+1378370828725	leave	session	ee3926b50e104a8ae87e6cabeee9092b
+1378370828726	join	session	name	level	bfcb4d1b58f1bbce5433d18494e40d22	anon_0001	0
+1378372313747	leave	session	bfcb4d1b58f1bbce5433d18494e40d22
+1378372313748	join	session	name	level	bf5332b18fa52ebd0dcff0cef50fafbc	anon_0001	0
+1378386583021	leave	session	bf5332b18fa52ebd0dcff0cef50fafbc
+1378386583156	join	session	name	level	ee3926b50e104a8ae87e6cabeee9092b	anon_0001	0
+1378386817744	leave	session	ee3926b50e104a8ae87e6cabeee9092b
+1378386825902	join	session	name	level	bf5332b18fa52ebd0dcff0cef50fafbc	anon_0001	0
+1378387002624	leave	session	bf5332b18fa52ebd0dcff0cef50fafbc
+1378387002661	join	session	name	level	ee3926b50e104a8ae87e6cabeee9092b	anon_0001	0
+1378388169124	leave	session	ee3926b50e104a8ae87e6cabeee9092b
+1378388169124	join	session	name	level	bf5332b18fa52ebd0dcff0cef50fafbc	anon_0001	0
+1378402035777	leave	session	bf5332b18fa52ebd0dcff0cef50fafbc
+1378413835777	join	session	name	level	bf5332b18fa52ebd0dcff0cef50fafbc	anon_0001	0
+1378544676393	leave	session	bf5332b18fa52ebd0dcff0cef50fafbc
+1378544676501	join	session	id	name	level	lock	28c8edde3d61a0411511d3b1866f0636	1	Ramazan Yılmaz ( Genel Müdür )	0	1
+1378546760935	leave	session	28c8edde3d61a0411511d3b1866f0636
+1378546760966	join	session	id	name	lock	level	83a5a282f092aa7baf6982b54227bb54	24	İsmail Yılmaz ( i.k )	1	0
+1378559109946	leave	session	83a5a282f092aa7baf6982b54227bb54
+1378559110011	join	session	name	level	bf5332b18fa52ebd0dcff0cef50fafbc	anon_0001	0
+1378648484492	leave	session	bf5332b18fa52ebd0dcff0cef50fafbc
+1378648484525	join	session	id	name	level	lock	28c8edde3d61a0411511d3b1866f0636	1	Ramazan Yılmaz ( Genel Müdür )	0	1

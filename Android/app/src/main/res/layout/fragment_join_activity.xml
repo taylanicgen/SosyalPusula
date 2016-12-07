@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yardım Başlığı:  "
+            android:layout_margin="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/join_activity_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="activityName"
+            android:layout_margin="10dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oluşturan kişi:     "
+            android:layout_margin="10dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/join_activity_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oluşturan kişi"
+            android:layout_margin="10dp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kategori:             "
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/join_activity_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kategori"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adres:                  "
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/join_activity_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yardımın Detayı: "
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/join_activity_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detay"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Başlangıç tarihi:  "
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/join_activity_starDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Başlangıç tarihi"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bitiş tarihi:            "
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/join_activity_endDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bitiş tarihi"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kişi Sınırı:             "
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/join_activity_maxMember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kişi Sınırı"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_join_activity_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geri Dön"
+            android:background="#11ff00"
+            android:padding="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn_join_activity_join"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Etkinliğe katıl"
+            android:background="#11ff00"
+            android:padding="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

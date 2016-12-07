@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Sosyal Pusula</string>
+    <string name="hint_email">Eposta</string>
+    <string name="hint_password">Şifre</string>
+    <string name="hint_name">İsim Soyisim</string>
+    <string name="hint_username">Kullanıcı Adı</string>
+    <string name="hint_phone">05XX-XXX-XX-XX</string>
+    <string name="hint_sex">Cinsiyet</string>
+    <string name="btn_login">Giriş</string>
+    <string name="btn_register">Kayıt</string>
+    <string name="btn_link_to_register">Üye değil misin? Kayıt Ol!</string>
+    <string name="btn_link_to_login">Üye misin? Giriş yap!</string>
+    <string name="welcome">Hoşgeldin</string>
+    <string name="btn_logout">Çıkış</string>
+    <string name="name">İsim Soyisim</string>
+    <string name="sex1">Bay</string>
+    <string name="sex2">Bayan</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="drawer_opened">Drawer Opened</string>
+    <string name="drawer_closed">Drawer Closed</string>
+
+    <string name="profile">Profil</string>
+    <string name="create_activity">Yardım Oluştur</string>
+    <string name="activities">Yardım Geçmişi</string>
+    <string name="settings">Ayarlar</string>
+    <string name="ranking">Sıralama</string>
+    <string name="about">Hakkımızda</string>
+    <string name="home">Yardımlar</string>
+    <string name="exit">Çıkış</string>
+
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="activity_title">Yardım Başlığı</string>
+    <string name="activity_detail">Detay</string>
+    <string name="activity_start_date">Başlangıç Tarihi</string>
+    <string name="activity_end_date">Bitiş Tarihi</string>
+    <string name="activity_max_member">Maksimum Kişi Sayısı</string>
+    <string name="activity_category">Kategori</string>
+    <string name="activity_location">Yardım Lokasyonu</string>
+
+    <string name="btn_update_profile">Profili Güncelle</string>
+</resources>

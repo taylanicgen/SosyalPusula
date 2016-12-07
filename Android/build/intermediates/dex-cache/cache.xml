@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Taylan\Desktop\SosyalPusula\app\build\intermediates\exploded-aar\com.google.maps.android\android-maps-utils\0.4.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4d3de1e946207667e76261421de0218f132960e0">
+        <dex dex="C:\Users\Taylan\Desktop\SosyalPusula\app\build\intermediates\pre-dexed\debug\classes-73243e8960b7f03c66e865666ab5f5f1b6a74b50.jar" />
+    </item>
+
+</items>

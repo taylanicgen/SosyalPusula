@@ -1,0 +1,226 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Square Live Chat - Version 1.1.2</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Summoner">
+	<meta name="copyright" content="Summoner">
+	<meta name="generator" content="Documenter v1.6 http://rxa.li/documenter">
+	<meta name="date" content="2012-09-23T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="css/custom.css" media="screen">
+
+	
+	<script src="js/jquery.1.6.4.js"></script>
+	<script src="js/cufon.js"></script><script src="js/font.js"></script>
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	<link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+	<script src="js/shCore.js"></script>
+	<script src="js/shBrushPhp.js"></script>
+	<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+
+	<script>document.createElement('section');var duration=450,easing='easeOutExpo';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#F3F3F3;color:#585858;background-image:url(assets/images/image_1.png);background-repeat:repeat;background-attachment:fixed;}
+		::-moz-selection{background:#111111;color:#F1F1F1;}
+		::selection{background:#111111;color:#F1F1F1;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_3.png);}
+		a{color:#111111;}
+		hr{border-top:1px solid #E5E5E5;border-bottom:1px solid #F9F9F9;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#333333;color:#F1F1F1;background-image:url(assets/images/image_2.gif);background-repeat:repeat-y;}
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #444444;-moz-text-shadow:1px 1px 0px #444444;text-shadow:1px 1px 0px #444444;}
+		#documenter_sidebar ol{border-top:1px solid #222222;}
+		#documenter_sidebar ol a{border-top:1px solid #444444;border-bottom:1px solid #222222;color:#F1F1F1;}
+		#documenter_sidebar ol a:hover{background:#111111;color:#F1F1F1;border-top:1px solid #111111;}
+		#documenter_sidebar ol a.current{background:#111111;color:#F1F1F1;border-top:1px solid #111111;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#requirements">Requirements</a></li>
+			<li><a href="#setup">Setup</a></li>
+			<li><a href="#configuration">Configuration</a></li>
+			<li><a href="#including_the_chat_on_a_page">Including the chat on a page</a></li>
+			<li><a href="#user_system_integration">User System Integration</a></li>
+			<li><a href="#language">Language</a></li>
+			<li><a href="#style">Style</a></li>
+
+		</ol>
+		<div id="documenter_copyright">Copyright Summoner 2012<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v1.6</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><h1>Square Live Chat</h1><h2>Version 1.1.2</h2><hr><ul><li>Created: 03/10/2011</li><li>latest Update: 09/23/2012</li><li>By: Summoner</li><li><a href="http://codecanyon.net/user/Summoner/">codecanyon.net/user/Summoner/</a></li><li>Email: <a href="mailto:&#115;&#117;&#109;&#109;&#111;&#110;&#101;&#114;&#119;&#100;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#115;&#117;&#109;&#109;&#111;&#110;&#101;&#114;&#119;&#100;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li></ul></section><section id="requirements">
+	<h3>Requirements</h3><hr class="notop">
+<ol>
+	<li>
+		PHP 4</li>
+</ol>
+</section>
+<section id="setup">
+	<h3>Setup</h3><hr class="notop">
+<ol>
+	<li>
+		Open the SquareLC folder and make a copy of the <strong>_config.php</strong> file called <strong>config.php</strong> and set your settings in that file</li>
+	<li>
+		Upload the <strong>SquareLC</strong> folder on a web hosting of your choice</li>
+	<li>
+		Give write permissions to the <strong>/SquareLC/db/</strong> folder using an FTP client or a file browser your hosting provides (usually chmod 755 or 777 if that doesn&rsquo;t work)</li>
+</ol>
+</section>
+<section id="configuration">
+	<h3>Configuration</h3><hr class="notop">
+<p>
+	<strong>secret</strong><br>
+	Set this to a long, random string that couldn&#39;t be guessed by anyone. This is used for encryption and securing cookies.</p>
+<p>
+	<strong>tracking</strong><br>
+	Set this to either &quot;cookie&quot; or &quot;ip&quot;. When tracking by cookie, each browser is handled as a separate user, otherwise each IP is. Note that this must be set to &quot;cookie&quot; if you plan on using your own user authentication system to set the nicknames and other data of users in the chat.</p>
+<p>
+	<strong>log</strong><br>
+	Set this to either true or false. When set to true, messages will be saved in a text file and will always be shown in the chat window. This can also be numerical to indicate the amount of lines to be shown in the chat window.</p>
+<p>
+	<strong>static_path</strong><br>
+	This is the absolute path to the contents of the SquareLC folder where the config.php file is. For example, if the folder is in the root directory of your server, the accepted values would be either &quot;http://yourdomain.com/SquareLC/&quot; or &quot;/SquareLC/&quot;. Note that there must be a trailing slash.</p>
+<p>
+	<strong>profile_path</strong><br>
+	When not set to false, this is the link that you are redirected to when you click on a username with an id in the chat. You can use {id} and {name} to make profile links for every user. Example: &quot;http://yourdomain.com/user_profile.php?id={id}&amp;name={name}&quot;.</p>
+<p>
+	<strong>load_lines</strong><br>
+	The time in milliseconds to wait before fetching for new messages. You can make the chat more responsive by lowering this, but it might cause a heavy load on your server.</p>
+<p>
+	<strong>load_online</strong><br>
+	The time in milliseconds that a user is reported to have left after being away. Setting this very low might cause two messages (user left, user joined) to appear when a user refreshes the page.</p>
+<p>
+	<strong>send_timeout</strong><br>
+	How long in milliseconds a user has to wait before sending another message.</p>
+<p>
+	<strong>max_users</strong><br>
+	How many users are allowed in a chat. Set this to false to allow unlimited users.</p>
+<p>
+	<strong>msg_max_length</strong><br>
+	The maximum length of a message in chat.</p>
+<p>
+	<strong>name_min_length</strong><br>
+	The minimum length of a nickname.</p>
+<p>
+	<strong>name_max_length</strong><br>
+	The maximum length of a nickname.</p>
+<p>
+	<strong>name_case_sensitive</strong><br>
+	Set this to either true or false. When set to true, the nicknames Test and test (example) will be considered the same.</p>
+<p>
+	<strong>commands</strong><br>
+	Here, you can set the level requirement for each command. Set the value to false if you want to disable the command entirely.</p>
+<p>
+	<strong>users</strong><br>
+	If you want to make some nicknames password-protected and give them administrative rights, you can set them in this array. The default level is 0.</p>
+</section>
+<section id="including_the_chat_on_a_page">
+	<h3>Including the chat on a page</h3><hr class="notop">
+<p>
+	To use Square Live Chat on a PHP page, you must first include the main SquareLC file (<strong>SquareLC.php</strong>).</p>
+<pre class="brush: php">
+require &#39;SquareLC/SquareLC.php&#39;;</pre>
+<p>
+	The next step is to select a channel (skipping this step will default to the channel &quot;global&quot;). Channels are essentially chat rooms, users in one channel won&#39;t see the messages posted in another one.</p>
+<pre class="brush: php">
+SquareLC::init(&#39;channel_name&#39;);</pre>
+<p>
+	If you&#39;ve already selected the channel, but for some reason want to change it, use the channel method:</p>
+<pre class="brush: php">
+SquareLC::channel(&#39;other_channel&#39;);</pre>
+<p>
+	Now you&#39;re ready to include a chat on your page. Here&#39;s an example with optional settings:</p>
+<pre class="brush: php">
+$settings = array
+(
+// This is the message on the top of the chat (set this to false or &#39;&#39; to remove the top bar, defaults to &#39;Live chat&#39;)
+&#39;title&#39; =&gt; &#39;Chat room one&#39;,
+// You can set these in either pixels or percents (default to 100%)
+&#39;width&#39; =&gt; 650,
+&#39;height&#39; =&gt; 400,
+// Set this to true if you want the chat to be full screen, don&#39;t output any HTML on the page while using this (defaults to false)
+&#39;fullscreen&#39; =&gt; false,
+// Set this to false if you don&#39;t want to show the list of online users (defaults to true)
+&#39;view_online&#39; =&gt; true,
+// Set this to false if you want to remove the outer border of the chat (defaults to true)
+&#39;outer_border&#39; =&gt; true,
+// Set this to true if you want to show a send button next to the message input (defaults to false)
+&#39;view_send_btn&#39; =&gt; true
+);
+
+SquareLC::chat($settings); </pre>
+<p>
+	Of course, you don&#39;t have to set any settings at all. If you&#39;re happy with the default values, simply use:</p>
+<pre class="brush: php">
+SquareLC::chat();</pre>
+<p>
+	&nbsp;</p>
+</section>
+<section id="user_system_integration">
+	<h3>User System Integration</h3><hr class="notop">
+<p>
+	If you have a user system, you can make the nickname in chat equal to the name of the logged in user and disable the option to change its nickname. Here&#39;s an example on how to do this when the user data in saved in a session:</p>
+<pre class="brush: php">
+// First, select the channel
+SquareLC::init(&#39;channel_name&#39;);
+
+// Now, set the user data
+SquareLC::user(&#39;session&#39;, array
+(
+// You MUST set an id for the user if you are using a user system
+&#39;id&#39; =&gt; $_SESSION[&#39;user_id&#39;],
+// Setting lock to true prevents the user from changing their nickname
+&#39;@lock&#39; =&gt; true
+&#39;@name&#39; =&gt; $_SESSION[&#39;user_name&#39;],
+));
+
+// You can also increase the user&#39;s level and enable more commands if it&#39;s an administrator or moderator
+if($_SESSION[&#39;user_group&#39;] == &#39;administrator&#39;)
+{
+SquareLC::user(&#39;Session&#39;, array
+(
+&#39;@level&#39; =&gt; 3
+));
+}
+</pre>
+<p>
+	The @ in front of the key only sets the value in the selected channel, never use it for the id.</p>
+</section>
+<section id="language">
+	<h3>Language</h3><hr class="notop">
+<p>
+	To translate the site, open the <strong>SquareLC/lang/</strong> folder and make a copy of the <strong>en.php</strong> file. Call it the ISO code of your language (de for German, fr for France, ...) and make translations in that file. It&#39;s not recommended to directly modify the en.php file because it may be overwritten by an update.<br>
+	<br>
+	Once you&#39;ve finished making the translations, open <strong>config.php</strong> in the SquareLC folder and set lang equal to your language code.</p>
+</section>
+<section id="style">
+	<h3>Style</h3><hr class="notop">
+<p>
+	You can change the appearance of the chat using CSS. Open the <strong>SquareLC/theme/</strong> folder and make a copy of the <strong>default.css</strong> file, call it the name of your new theme. You should also look at the <strong>SquareLC/css/layout.css</strong> file if you want to change the layout. The CSS rules in your theme file will overwrite the ones in SquareLC/css/layout.css.<br>
+	<br>
+	To activate the new theme, open <strong>config.php</strong> in the SquareLC folder and set style equal to the name of your theme.</p>
+</section>
+
+	</div>
+</body>
+</html>

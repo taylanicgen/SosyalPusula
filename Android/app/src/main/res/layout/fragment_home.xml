@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.maps.MapView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapView="http://schemas.android.com/apk/res-auto"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:id="@+id/mapView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    mapView:mapType="normal"
+    mapView:uiZoomControls="true"
+    android:layout_margin="3dp"/>
+
